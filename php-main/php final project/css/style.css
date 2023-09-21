@@ -1,0 +1,286 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    padding: 20px;
+    
+    width: 100%;
+}
+
+.body-with-margin {
+    margin-top: 0px; /* Adjust the margin value based on your header height */
+}
+
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 48px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+
+
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffcb05;
+}
+
+
+/* main  */
+
+.heading-main {
+
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.heading-main h1 {
+    font-size: 50px;
+
+    text-align: center;
+
+    margin: 0;
+}
+
+.heading-main p {
+    font-size: 24px;
+    color: #535353;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffcb05;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 13px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #ffcb05;
+    border: 2px solid #ffcb05;
+}
+
+/* Products section */
+.products {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.product-card {
+    display: inline-block;
+    margin: 20px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* About section */
+.about {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Footer */
+
+
+ footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  .footerr {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+  }
+  
+  
+  .col {
+    flex-basis: calc(33.33% - 1.5rem);
+
+  }
+  
+  .col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .col ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .col ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .col h3 {
+    margin-bottom: 1rem;
+  }
+  
+
+  .ftr {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+
+/* Style for the entire footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the social media column */
+.footerr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col h3 {
+    margin-bottom: 10px;
+}
+
+/* Style for the social media links */
+#hide {
+    list-style: none;
+    padding: 0;
+}
+
+#hide li {
+    margin-bottom: 5px;
+}
+
+#hide a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#hide a:hover {
+    color: #f39c12;
+}
+
+/* Style for the subscription section */
+.subscribe {
+    margin-bottom: 20px;
+}
+
+.subscribe h3 {
+    margin-bottom: 10px;
+}
+
+.footer-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-form input[type="text"],
+.footer-form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.footer-form button {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer-form button:hover {
+    background-color: #e67e22;
+}
+
+/* Style for the copyright text */
+.ftr {
+    font-size: 12px;
+    color: #999;
+}
+
